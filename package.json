@@ -1,0 +1,28 @@
+{
+  "name": "pubg-http-api",
+  "version": "1.0.0",
+  "description": "Axios HTTP client for PUBG API",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:concept-not-found/pubg-http-api.git"
+  },
+  "author": "Ronald Chen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "4.18.2",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
