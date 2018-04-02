@@ -1,6 +1,8 @@
 # pubg-http-api
 An [axios](https://github.com/axios/axios) HTTP client for [PUBG API](https://developer.playbattlegrounds.com).
 
+This library makes it easier for you to make HTTP PUBG API calls. It is not an [abstraction distraction](https://vimeo.com/44235657) of the native HTTP PUBG API.
+
 This library does not handle rate limiting! You need to provide your own rate limiting solution using the returned headers. See https://documentation.playbattlegrounds.com/en/api-keys.html#rate-limits
 
 ## Example
